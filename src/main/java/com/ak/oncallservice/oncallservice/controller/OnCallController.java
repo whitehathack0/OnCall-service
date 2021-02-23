@@ -6,7 +6,7 @@ import com.ak.oncallservice.oncallservice.model.CustomerEntry;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://ec2-34-233-127-128.compute-1.amazonaws.com:3000")
 @RestController
 @RequestMapping("/api/oncall")
 public class OnCallController {

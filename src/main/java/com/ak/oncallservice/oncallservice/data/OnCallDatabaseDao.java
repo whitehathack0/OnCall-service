@@ -21,7 +21,7 @@ public class OnCallDatabaseDao {
     }
 
     public CustomerEntry add(CustomerEntry custEntry) {
-        final String sql = "INSERT INTO clientInfo(name, address1, address2, zipcode, email, " +
+        final String sql = "INSERT INTO clientinfo(name, address1, address2, zipcode, email, " +
                 "phone, description) VALUES(?,?,?,?,?,?,?);";
         GeneratedKeyHolder keyHolder = new GeneratedKeyHolder();
 
